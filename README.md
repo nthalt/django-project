@@ -1,21 +1,31 @@
 # Setup and Installation
 
-1. **Create a Virtual Environment**:
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/nthalt/django-project.git
+   cd django-project
+   ```
+
+2. **Create a Virtual Environment**:
 
    ```bash
    python3 -m venv venv
    ```
 
-2. **Activate the Virtual Environment**:
+3. **Activate the Virtual Environment**:
 
    ```bash
-   source venv/bin/activate
+   source venv/bin/activate # On Windows use: venv\Scripts\activate
    ```
 
-3. **Install Dependencies**:
+4. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
+
+5. **Make sure Postgresql database engine is installed and running.**
 
 ### Important Notes:
 
